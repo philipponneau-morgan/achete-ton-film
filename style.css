@@ -162,25 +162,57 @@ body a {
     max-width: 100%;
 }
 
-.previsu_films {
-    background: url('ASSETS/CSS/IMAGES/BACKGROUND/fond_previsu_films.jpg');
+.catalogue_exemple {
+    background: url('ASSETS/CSS/IMAGES/BACKGROUND/fond_pre_visu_film-modified.jpg') center;
     background-size: cover;
+}
+
+.previsu_films {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 2em;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
+
 }
 
 .previsu_films img {
-    margin-top: 5em;
     width: 200px;
     height: 296px;
+    margin-bottom: 0.5em;
 }
 
 .previsu_films h2 {
+    font-family: "Merriweather", sans-serif;
     color: white;
     max-width: 200px;
     max-height: 296px;
+}
+
+.previsu_films a:hover {
+    transform: scale(1.1)
+}
+
+.previsu_films a {
+    transition: transform 0.5s ease;
+}
+
+.catalogue_titre {
+    font-family: "Merriweather", sans-serif;
+    font-size: 4em;
+    margin-top: 0;
+    padding-top: 1em;
+    margin-bottom: 0.7em;
+    margin-left: 5rem;
+    color: white;
+}
+
+.derniers_exemples {
+    margin-bottom: 5em;
+}
+
+.footer {
+    background: white;
 }
