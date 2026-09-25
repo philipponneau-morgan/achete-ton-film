@@ -139,15 +139,26 @@ body a {
     overflow: hidden;
 }
 
+.categories a:hover {
+    transform: scale(1.1);
+
+}
+
 .categories {
-    margin-top: 8em;
+    margin-top: 7em;
     margin-left: 5em;
     margin-right: 32em;
     margin-bottom: 15em;
 }
+
+.categories a {
+    transition: transform 0.5s ease;
+}
+
 .second_block .categories {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
     max-width: 100%;
 }
+
