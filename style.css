@@ -145,10 +145,10 @@ body a {
 }
 
 .categories {
-    margin-top: 7em;
+    margin-top: 8em;
     margin-left: 5em;
     margin-right: 32em;
-    margin-bottom: 15em;
+    margin-bottom: 17em;
 }
 
 .categories a {
@@ -162,3 +162,25 @@ body a {
     max-width: 100%;
 }
 
+.previsu_films {
+    background: url('ASSETS/CSS/IMAGES/BACKGROUND/fond_previsu_films.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+    text-align: center;
+}
+
+.previsu_films img {
+    margin-top: 5em;
+    width: 200px;
+    height: 296px;
+}
+
+.previsu_films h2 {
+    color: white;
+    max-width: 200px;
+    max-height: 296px;
+}
