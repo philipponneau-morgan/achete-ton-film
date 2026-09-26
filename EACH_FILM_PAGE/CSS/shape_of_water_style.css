@@ -1,0 +1,13 @@
+body {
+    max-width: 100%;
+    background-image:
+            linear-gradient(
+                    to left,
+                    rgba(5, 18, 28, 0.95) 0%,    /* Sombre très opaque à droite pour le texte */
+                    rgba(5, 18, 28, 0.8) 40%,    /* Transition douce au centre-droit */
+                    rgba(5, 18, 28, 0.2) 75%,    /* Très léger sur les personnages */
+                    rgba(5, 18, 28, 0) 100%      /* Totalement transparent à gauche */
+            ),
+            url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/the_shape_of_water.jpg');
+    background-size: cover;
+}
