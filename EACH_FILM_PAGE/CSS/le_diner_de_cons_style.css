@@ -1,0 +1,141 @@
+@keyframes changeBackground {
+    0%, 25% {
+        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/fond_le_diner_de_cons.jpeg');
+    }
+    33%, 58% {
+        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/le_diner_de_cons_fond2.jpeg');
+    }
+    66%, 91% {
+        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/le_diner_de_cons_fond3.jpeg');
+    }
+    100% {
+        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/fond_le_diner_de_cons.jpeg');
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    background: url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/fond_le_diner_de_cons.jpeg') fixed;
+    background-size: cover;
+    animation: changeBackground 15s infinite;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.entire_block {
+    display: flex;
+    justify-content: flex-end; /* "right" est obsolète en flexbox, flex-end est la valeur valide */
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 100%;
+    font-weight: 600;
+}
+
+.product_box {
+    box-sizing: border-box;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 460px; /* Légèrement réduit pour être plus compact */
+    padding: 16px 22px; /* Reduit le padding pour gagner de la hauteur */
+    border-radius: 12px;
+    background-color: rgba(5, 18, 28, 0.75); /* Fond un peu plus sombre pour la lisibilité */
+    backdrop-filter: blur(12px); /* Correctif du bug blur */
+}
+
+/* --- TAILLES DE TEXTE ET ESPACEMENTS OPTIMISÉS --- */
+
+.product_box h1 {
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 1.8em; /* Réduit de 2.8em à 1.8em */
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    color: #56ffdd;
+    line-height: 1.1;
+}
+
+.product_box p {
+    font-size: 0.88em; /* Réduit de 1em à 0.88em pour compacter le texte long */
+    line-height: 1.4; /* Améliore la lisibilité tout en restant compact */
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+}
+
+.product_box span {
+    font-size: 0.95em; /* Harmonisé par rapport au paragraphe */
+    color: #a6d6e3;
+}
+
+.product_box ul {
+    margin-top: 0.3em;
+    margin-bottom: 0.8em;
+    padding-left: 1.2em; /* Aligne mieux les puces */
+    font-size: 0.85em; /* Réduit la taille des options d'achat */
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 1.4;
+}
+
+#synopsis {
+    display: block;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+}
+
+#bouton_achat {
+    color: white;
+    background-color: #1c83bd;
+    padding: 10px 18px; /* Plus compact (15px -> 10px/18px) */
+    width: fit-content;
+    border: 1px solid #1c83bd;
+    border-radius: 8px;
+    font-size: 0.95em; /* Réduit de 1.2em à 0.95em */
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    cursor: pointer;
+}
+
+/* --- NAVBAR OPTIMISÉE --- */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    margin-left: 3rem;  /* Reduit les marges énormes (7rem -> 3rem) */
+    margin-right: 3rem;
+    padding-top: 10px;
+}
+
+.text_on_navbar:hover {
+    border-bottom: 3px solid white;
+    font-weight: 500;
+    color: #56ffdd;
+}
+
+.navbar > a {
+    padding: 6px;
+    color: cyan;
+    font-family: "Merriweather", sans-serif;
+    font-size: 2em; /* Réduit de 2em (trop grand pour un menu) à 1.1em */
+    border: 3px solid transparent;
+    text-shadow: 2px 2px black;
+}
+
+.navbar a img:hover {
+    transform: scale(1.05);
+    border-bottom: none;
+}
+
+.navbar a img {
+    transition: transform 0.3s ease;
+}
