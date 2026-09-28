@@ -124,7 +124,7 @@ body a {
 
 .navbar > a {
     padding: 6px;
-    color: cyan;
+    color: white;
     font-family: "Merriweather", sans-serif;
     font-size: 2em; /* Réduit de 2em (trop grand pour un menu) à 1.1em */
     border: 3px solid transparent;
