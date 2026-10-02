@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Page Science-Fiction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/science_fiction_page_style.css">
 </head>
 <body>
+    <div class="navbar" role="navigation">
+        <a href="../index.html" id="logo_achete_ton_film"><img src="../ASSETS/CSS/IMAGES/LOGOS/logo_achete_ton_film_sans_fond.png" alt="logo_achete_ton_film" width="300"></a>
+        <a href="../index.html" class="text_on_navbar">Accueil</a>
+        <a href="../index.html/#second_block" class="text_on_navbar">Catégories</a>
+        <a href="../index.html/#catalogue_exemple" class="text_on_navbar">Catalogue</a>
+        <a href="../OTHER_PAGES/panier.html" class="text_on_navbar">Support</a>
+        <a href="../OTHER_PAGES/panier.html"><img src="../ASSETS/CSS/IMAGES/LOGOS/basket_logo.png" class="basket_logo" alt="shopping_logo" width="90"></a>
+    </div>
 
+    <h1>Science-Fiction</h1>
+    <h2>Explorez des mondes au-delà de l'imagination !</h2>
+
+    <div class="visu_films"> <!-- Colonne de flexbox en ligne -->
+
+        <!--
+        - affiche du film
+        - titre du film
+        - hover scale
+        - affiche cliquable
+        -->
+        <a href="../EACH_FILM_PAGE/interstellar_page.html"><img src="../ASSETS/CSS/IMAGES/FILMS/FANTASY/affiche_interstellar.jpg" alt="interstellar_affiche"><h2 class="film_title">Interstellar 12€ - 30€</h2></a>
+        <a href="../EACH_FILM_PAGE/project_hail_mary_page.html"><img src="../ASSETS/CSS/IMAGES/FILMS/FANTASY/affiche_project_hail_mary.jpg" alt="project_hail_mary_affiche"><h2 class="film_title">Project Hail Mary 12€ - 30€</h2></a>
+    </div>
 </body>
+<footer>
+    <div class="pro_footer"> <!-- Flexbox avec wrap -->
+        <div class="rubrique_footer"> <!-- Flexbox en colonne -->
+            <h2><b>Adresse</b></h2>
+            <p>48 Rue Luciano Pavarotti</p>
+            <p>37550, Saint-Avertin</p>
+            <br>
+            <h2><b>Téléphone</b></h2>
+            <p>06 34 52 65 27</p>
+        </div>
+
+        <div class="rubrique_footer">
+            <h2><b>Pages</b></h2>
+            <p>Accueil</p>
+            <p>Catégorie Fantasy</p>
+            <p>Catégorie Science-Fiction</p>
+            <p>Catégorie Thriller</p>
+            <p>Catégorie Comedy</p>
+            <p>Section Catégories</p>
+        </div>
+
+        <div class="rubrique_footer">
+            <h2><b>Contact</b></h2>
+            <p>Support</p>
+            <p><a href="mailto:philipponneaumorgan@gmail.com">Nous contacter par e-mail</a></p>
+        </div>
+    </div>
+</footer>
 </html>

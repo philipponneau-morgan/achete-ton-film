@@ -1,0 +1,76 @@
+body {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url('../../ASSETS/CSS/IMAGES/BACKGROUND/fond_page_support_studio_de_cinema.png') fixed;
+    background-size: cover;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.visu_films a {
+    text-decoration: none;
+}
+
+.navbar {
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+    background-size: cover;
+
+}
+.text_on_navbar:hover {
+    border-bottom: 3.5px solid #D6B47A;
+}
+
+.navbar > a {
+    padding: 1.5px;
+    color: white;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 2em;
+    border: 3.5px solid transparent;
+
+}
+
+.navbar a img:hover {
+    transform: scale(1.05);
+    border-bottom: none;
+}
+
+.navbar a img {
+    transition: transform 0.5s ease;
+
+}
+
+.basket_logo {
+    width: 1.7em;
+    margin-right: 2em;
+    margin-top: 0.45em;
+}
+
+.petit_titre {
+    font-size: 3em;
+    color: darkorange;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    margin-left: 10rem;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px 5px black;
+    backdrop-filter: blur(1.2px);
+}
+
+h1 {
+    line-height: 1em;
+    margin-left: 24rem;
+    max-width: 12em;
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-size: 5.5em;
+    text-shadow: 3px 0 0 0 black;
+}
+

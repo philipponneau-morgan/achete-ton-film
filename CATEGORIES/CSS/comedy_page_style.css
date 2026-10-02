@@ -1,0 +1,130 @@
+body {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url('../Images/fond_comedy_category_page.jpeg') fixed;
+    background-size: cover;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.visu_films a {
+    text-decoration: none;
+}
+
+.navbar {
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+    background-size: cover;
+
+}
+.text_on_navbar:hover {
+    border-bottom: 3.5px solid gold;
+}
+
+.navbar > a {
+    padding: 1.5px;
+    color: white;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 2em;
+    border: 3.5px solid transparent;
+
+}
+
+.navbar a img:hover {
+    transform: scale(1.05);
+    border-bottom: none;
+}
+
+.navbar a img {
+    transition: transform 0.5s ease;
+
+}
+
+.basket_logo {
+    width: 1.7em;
+    margin-right: 2em;
+    margin-top: 0.45em;
+}
+
+h1 {
+    font-family: "Cinzel", sans-serif;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    line-height: 0.2em;
+    text-shadow: 0 1.5px black;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Cinzel", sans-serif;
+    color: gold;
+    text-shadow: 0 1.5px black;
+}
+
+.visu_films {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 4em;
+    font-size: 1em;
+    margin-bottom: 6em;
+}
+
+.visu_films .film_title {
+    color: white;
+    max-width: 10em;
+}
+
+.visu_films img {
+    width: 250px;
+    height: 376px;
+    margin-bottom: 0.5em;
+}
+
+.footer {
+}
+
+.pro_footer {
+    color: white;
+    background: url('../../ASSETS/CSS/IMAGES/BACKGROUND/fondd_footer_bleu_marine.jpeg') center;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15em;
+    align-items: center;
+}
+
+.pro_footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.rubrique_footer {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.rubrique_footer h2 {
+    color: white;
+}

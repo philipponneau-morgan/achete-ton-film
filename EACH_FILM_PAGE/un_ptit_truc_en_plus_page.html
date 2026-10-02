@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/un_ptit_truc_en_plus_style.css">
-
-    <title>Title</title>
+    <title>Un Ptit Truc En Plus</title>
 </head>
 <body>
+
+<div class="navbar">
+    <a href="../index.html"><img src="../ASSETS/CSS/IMAGES/LOGOS/logo_achete_ton_film_sans_fond.png" alt="logo_achete_ton_film" width="300"></a>
+    <a href="../index.html" class="text_on_navbar">Accueil</a>
+    <a href="../index.html/#second_block" class="text_on_navbar">Catégories</a>
+    <a href="../index.html/#catalogue_exemple" class="text_on_navbar">Catalogue</a>
+    <a href="../OTHER_PAGES/panier.html" class="text_on_navbar">Support</a>
+    <a href="../OTHER_PAGES/panier.html"><img src="../ASSETS/CSS/IMAGES/LOGOS/basket_logo.png" alt="shopping_logo" width="90"></a>
+</div>
+
+<div class="entire_block"> <!-- Flexbox row centrée à droite -->
+    <div class="product_box"> <!-- Flexboe en column -->
+        <h1>Un P'tit Truc En Plus</h1>
+        <p><span>May, 1st 2024</span> (Date Française)</p>
+        <p><span>Genre : </span>Comédie</p>
+        <img src="../ASSETS/CSS/IMAGES/LOGOS/CATEGORIES/quatre_etoiles_logo.png" alt="quatre_etoiles" width="150">
+        <p><span>Durée : </span>1h39</p>
+        <p><span id="synopsis">Synopsis du Film : </span>Pour échapper à la police après un cambriolage, un fils et son père en cavale se cachent là où personne ne les attend : dans une colonie de vacances pour jeunes adultes en situation de handicap mental. Pour se fondre dans la masse, ils se font passer pour un pensionnaire nommé Sylvain et son éducateur spécialisé. Ce mensonge marque le début des galères, mais surtout d'une aventure humaine bouleversante qui va changer leur vie à jamais.</p>
+        <p><span>Prix et Formats :</span></p>
+        <ul>
+            <li>DVD SD (480p / 576p) : <span>12€</span></li>
+            <li>Blu-Ray Standard (Full HD 1080p) : <span>18€</span></li>
+            <li>Blu-Ray 4K Ultra HD (2160p) : <span>30€</span></li>
+        </ul>
+        <a href="../index.html" id="bouton_achat">Acheter Maintenant</a>
+    </div>
+</div>
 
 </body>
 </html>
