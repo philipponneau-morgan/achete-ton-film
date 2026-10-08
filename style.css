@@ -51,15 +51,13 @@ body a {
     justify-content: center;
     align-items: center;
     background:
-        /* Overlay Sombre Ciblée sur le texte */
             radial-gradient(
-                    circle at 10% 45%, /* Le centre du dégradé sombre est sur le texte (10% de la largeur, 45% de la hauteur) */
-                    rgba(0, 0, 0, 0.95) 0%,   /* Noir profond presque opaque au cœur du texte */
-                    rgba(0, 0, 0, 0.85) 20%,  /* Transition douce et rapide pour la lisibilité */
-                    rgba(0, 0, 0, 0.10) 65%,  /* S'évapore pour laisser voir l'image rapidement */
-                    transparent 100%          /* Laisse éclater les lumières bleues et oranges */
+                    circle at 10% 45%,
+                    rgba(0, 0, 0, 0.95) 0%,
+                    rgba(0, 0, 0, 0.85) 20%,
+                    rgba(0, 0, 0, 0.10) 65%,
+                    transparent 100%
             ),
-                /* Image de Fond Centrée */
             url("ASSETS/CSS/IMAGES/BACKGROUND/Gemini_Generated_Image_7girzp7girzp7gir.jpg")
             center center / cover no-repeat;
     overflow: hidden;
@@ -97,7 +95,7 @@ body a {
     font-weight: 500;
     color: #aea8a8;
     margin-top: 0em;
-    margin-left: 8rem;
+    margin-left: 8.53rem;
     margin-right: 8rem;
     font-size: 1.5em;
     margin-bottom: 1em;
@@ -111,7 +109,7 @@ body a {
     color: black;
     font-weight: bold;
     font-size: 1.55em;
-    margin-left: 8.5rem;
+    margin-left: 8.3rem;
     margin-right: 8.5rem;
     padding: 18px;
     background-color: #FF7D3D;

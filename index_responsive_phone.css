@@ -22,6 +22,10 @@
         border-bottom: 3.5px solid black;
     }
 
+    .navbar a picture img {
+        width: 55px;
+    }
+
     .navbar img {
         display: block;
         width: 2.5em;
@@ -49,6 +53,10 @@
     #logo_achete_ton_film img {
         display: block;
         width: 4em;
+    }
+
+    .navbar a img .logo_panier {
+        width: 20px;
     }
 
     .first_block {
@@ -122,8 +130,8 @@
 
         color: #aea8a8;
 
-        margin-top: 0em;
-        margin-left: 4rem;
+        margin-top: 0;
+        margin-left: 3.4rem;
         margin-right: 4rem;
 
         font-size: 1.6em;
@@ -169,10 +177,9 @@
     .second_block {
         max-width: 100%;
 
-        background:
-                url('ASSETS/CSS/IMAGES/BACKGROUND/fond_categories.jpg')
-                center;
+        background: url('ASSETS/CSS/IMAGES/BACKGROUND/fond_categories.jpg');
 
+        background-position: 81% bottom;
         background-size: cover;
 
         overflow: hidden;
@@ -183,6 +190,15 @@
         width: 17em;
 
         margin: 5.1em 2.3em;
+    }
+
+    .second_block .categories {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100%;
     }
 
     .catalogue_exemple {
