@@ -91,7 +91,7 @@ body a {
 }
 
 #bouton_achat {
-    color: white;
+    color: whitesmoke;
     background-color: #1c83bd;
     padding: 10px 18px; /* Plus compact (15px -> 10px/18px) */
     width: fit-content;
@@ -128,7 +128,7 @@ body a {
     font-family: "Merriweather", sans-serif;
     font-size: 2em; /* Réduit de 2em (trop grand pour un menu) à 1.1em */
     border: 3px solid transparent;
-    text-shadow: 1.8px 0 black;
+    text-shadow: 2.2px 0.2px black;
 }
 
 .navbar a img:hover {
