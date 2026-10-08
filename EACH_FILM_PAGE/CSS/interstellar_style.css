@@ -128,7 +128,7 @@ body a {
     font-family: "Merriweather", sans-serif;
     font-size: 2em; /* Réduit de 2em (trop grand pour un menu) à 1.1em */
     border: 3px solid transparent;
-    text-shadow: 2px 2px black;
+    text-shadow: 1.8px 0 black;
 }
 
 .navbar a img:hover {

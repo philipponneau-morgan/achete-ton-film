@@ -1,9 +1,5 @@
 @media screen and (max-width: 460px) {
 
-    /* ================================
-       ANIMATION DES 3 IMAGES
-       ================================ */
-
     @keyframes changeBackgroundMobile {
 
         0%, 25% {
@@ -62,11 +58,6 @@
             background-position: center top;
         }
     }
-
-
-    /* ================================
-       PAGE
-       ================================ */
 
     html,
     body {
@@ -166,11 +157,6 @@
         border-bottom: none;
     }
 
-
-    /* ================================
-       CONTENU
-       ================================ */
-
     .entire_block {
         width: 100%;
 
@@ -184,21 +170,11 @@
         font-weight: 600;
     }
 
-
-    /* ================================
-       FICHE DU FILM
-       ================================ */
-
     .product_box {
         width: 100%;
         max-width: 420px;
 
         box-sizing: border-box;
-
-        /*
-            La fiche commence pendant
-            la transition image -> sombre.
-        */
 
         margin-top: 200px;
         margin-left: 1rem;
@@ -222,11 +198,6 @@
         flex-direction: column;
     }
 
-
-    /* ================================
-       TITRE
-       ================================ */
-
     .product_box h1 {
         margin: 0 0 10px 0;
 
@@ -237,11 +208,6 @@
 
         color: #56ffdd;
     }
-
-
-    /* ================================
-       TEXTES
-       ================================ */
 
     .product_box p {
         margin: 4px 0 8px 0;
@@ -273,11 +239,6 @@
         font-weight: 700;
     }
 
-
-    /* ================================
-       PRIX
-       ================================ */
-
     .product_box ul {
         margin: 5px 0 12px 0;
 
@@ -295,11 +256,6 @@
     .product_box li {
         margin-bottom: 4px;
     }
-
-
-    /* ================================
-       BOUTON
-       ================================ */
 
     #bouton_achat {
         width: 100%;
