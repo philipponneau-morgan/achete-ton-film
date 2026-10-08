@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -11,15 +12,20 @@
 <body>
 
 <div class="navbar">
-    <a href="../index.html"><img src="../ASSETS/CSS/IMAGES/LOGOS/logo_achete_ton_film_sans_fond.png" alt="logo_achete_ton_film" width="300"></a>
+    <a href="../index.html">
+        <picture>
+            <source srcset="../ASSETS/CSS/IMAGES/LOGOS/logo_achete_ton_film_carre_responsive.png" media="(max-width: 768px)">
+            <img src="../ASSETS/CSS/IMAGES/LOGOS/logo_achete_ton_film_sans_fond.png" alt="logo_achete_ton_film" width="300">
+        </picture>
+    </a>
     <a href="../index.html" class="text_on_navbar">Accueil</a>
-    <a href="../index.html/#second_block" class="text_on_navbar">Catégories</a>
-    <a href="../index.html/#catalogue_exemple" class="text_on_navbar">Catalogue</a>
-    <a href="../OTHER_PAGES/panier.html" class="text_on_navbar">Support</a>
+    <a href="../index.html#second_block" class="text_on_navbar">Catégories</a>
+    <a href="../index.html#catalogue_exemple" class="text_on_navbar">Catalogue</a>
+    <a href="../OTHER_PAGES/support.html" class="text_on_navbar">Support</a>
     <a href="../OTHER_PAGES/panier.html"><img src="../ASSETS/CSS/IMAGES/LOGOS/basket_logo.png" alt="shopping_logo" width="90"></a>
 </div>
 
-<div class="entire_block"> <!-- Flexbox row centrée à droite -->
+<div class="entire_block" role="contentinfo"> <!-- Flexbox row centrée à droite -->
     <div class="product_box"> <!-- Flexboe en column -->
         <h1>Un P'tit Truc En Plus</h1>
         <p><span>May, 1st 2024</span> (Date Française)</p>

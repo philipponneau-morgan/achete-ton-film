@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <meta name="description" content="Page de support contenant un formulaire grâce auquel on peut me contacter.">
     <link rel="stylesheet" href="CSS/style_support.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +20,9 @@
     <div class="navbar" role="navigation">
         <a href="../index.html" class="logo_site" id="logo_achete_ton_film"><img src="../ASSETS/CSS/IMAGES/LOGOS/logo_achete_ton_film_sans_fond.png" alt="logo_achete_ton_film" width="300"></a>
         <a href="../index.html" class="text_on_navbar">Accueil</a>
-        <a href="../index.html/#second_block" class="text_on_navbar">Catégories</a>
-        <a href="../index.html/#catalogue_exemple" class="text_on_navbar">Catalogue</a>
-        <a href="../OTHER_PAGES/panier.html" class="text_on_navbar">Support</a>
+        <a href="../index.html#second_block" class="text_on_navbar">Catégories</a>
+        <a href="../index.html#catalogue_exemple" class="text_on_navbar">Catalogue</a>
+        <a href="../OTHER_PAGES/support.html" class="text_on_navbar">Support</a>
         <a href="../OTHER_PAGES/panier.html"><img src="../ASSETS/CSS/IMAGES/LOGOS/basket_logo.png" class="basket_logo" alt="shopping_logo" width="90"></a>
     </div>
 
@@ -28,21 +30,19 @@
     <h1>Comment pouvons-nous vous aider ?</h1>
     <h2>Notre équipe est là pour vous répondre dans les meilleurs délais</h2>
 
-    <!-- modify this form HTML and place wherever you want your form -->
-    <form
-            action="https://formspree.io/f/xwlpdkvz"
-            method="POST"
-    >
-        <label>
-            Your email:
-            <input type="email" name="email">
-        </label>
-        <label>
-            Your message:
-            <textarea name="message"></textarea>
-        </label>
-        <!-- your other form fields go here -->
-        <button type="submit">Send</button>
+    <form id="form" action="https://formspree.io/f/xwlpdkvz" method="POST">
+        <div class="input_fields">
+            <label>
+                <p><i class="fa-regular fa-envelope"></i> E-mail :</p>
+                <input type="email" name="email" placeholder="Votre e-mail ?" required>
+            </label>
+            <label>
+                <p><i class="fa-regular fa-comment-dots"></i> Sujet du Message :</p>
+                <textarea name="message" placeholder="Que souhaitez-vous nous dire ?" required></textarea>
+            </label>
+            <!-- your other form fields go here -->
+        </div>
+        <button id="sens_form_button" type="submit">Send</button>
     </form>
 
 
