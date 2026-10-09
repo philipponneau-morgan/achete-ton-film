@@ -13,7 +13,7 @@
                     ),
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/lotr1.jpg');
 
-            background-position: center top;
+            background-position: 80% top;
             width: 100%;
         }
 
@@ -28,7 +28,7 @@
                     ),
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/lord_of_the_rings_fond2.jpg');
 
-            background-position: center top;
+            background-position: 61% top;
         }
 
         66%, 91% {
@@ -42,7 +42,7 @@
                     ),
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/lord_of_the_rings_fond3.jpg');
 
-            background-position: center top;
+            background-position: 93.5% top;
         }
 
         100% {
@@ -56,7 +56,7 @@
                     ),
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/lotr1.jpg');
 
-            background-position: center top;
+            background-position: 80% top;
         }
     }
 

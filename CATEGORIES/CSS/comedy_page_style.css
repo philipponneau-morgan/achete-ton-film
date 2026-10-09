@@ -87,6 +87,14 @@ h2 {
     max-width: 10em;
 }
 
+.visu_films a:hover {
+    transform: scale(1.05);
+}
+
+.visu_films a {
+    transition: transform 0.5s ease;
+}
+
 .visu_films img {
     width: 250px;
     height: 376px;

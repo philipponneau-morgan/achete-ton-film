@@ -1,0 +1,362 @@
+@media screen and (max-width: 1040px) {
+
+    @keyframes changeBackgroundMobile {
+
+        0%, 25% {
+            background-image:
+                    linear-gradient(
+                            to bottom,
+                            rgba(4, 13, 21, 0.05) 0%,
+                            rgba(4, 13, 21, 0.10) 45%,
+                            rgba(4, 13, 21, 0.65) 75%,
+                            #07141e 100%
+                    ),
+                    url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/fond_le_diner_de_cons.jpeg');
+
+            background-position: 5% top;
+            background-size:
+                    100% 55em,
+                    140% auto;
+        }
+
+        33%, 58% {
+            background-image:
+                    linear-gradient(
+                            to bottom,
+                            rgba(4, 13, 21, 0.05) 0%,
+                            rgba(4, 13, 21, 0.10) 45%,
+                            rgba(4, 13, 21, 0.65) 75%,
+                            #07141e 100%
+                    ),
+                    url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/le_diner_de_cons_fond2.jpeg');
+
+            background-position: center top;
+        }
+
+        66%, 91% {
+            background-image:
+                    linear-gradient(
+                            to bottom,
+                            rgba(4, 13, 21, 0.05) 0%,
+                            rgba(4, 13, 21, 0.10) 45%,
+                            rgba(4, 13, 21, 0.65) 75%,
+                            #07141e 100%
+                    ),
+                    url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/le_diner_de_cons_fond3.jpeg');
+
+            background-position: 25% top;
+            background-size:
+                100% 55em,
+                130% auto;
+
+        }
+
+        100% {
+            background-image:
+                    linear-gradient(
+                            to bottom,
+                            rgba(4, 13, 21, 0.05) 0%,
+                            rgba(4, 13, 21, 0.10) 45%,
+                            rgba(4, 13, 21, 0.65) 75%,
+                            #07141e 100%
+                    ),
+                    url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/fond_le_diner_de_cons.jpeg');
+
+            background-position: 5% top;
+        }
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+
+        min-height: 55em;
+
+        overflow-x: hidden;
+
+        background-color: #07141e;
+
+        background-image:
+                linear-gradient(
+                        to bottom,
+                        rgba(4, 13, 21, 0.05) 0%,
+                        rgba(4, 13, 21, 0.10) 45%,
+                        rgba(4, 13, 21, 0.65) 75%,
+                        #07141e 100%
+                ),
+                url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/fond_le_diner_de_cons.jpeg');
+
+        background-size:
+                100% 55em,
+                140% auto;
+
+        background-position: center top, center top;
+
+        background-repeat: no-repeat;
+
+        animation: changeBackgroundMobile 15s infinite;
+
+        box-sizing: border-box;
+    }
+
+
+    body a {
+        text-decoration: none;
+    }
+
+    .navbar {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5em;
+
+        box-sizing: border-box;
+
+        padding: 2px 2px;
+
+        margin: 0;
+
+        background: linear-gradient(
+                to bottom,
+                rgba(3, 12, 19, 0.55),
+                transparent
+        );
+    }
+
+
+    .navbar > a {
+        padding: 4px 2px;
+
+
+        font-family: "Merriweather", sans-serif;
+        font-size: 2.200em;
+
+        white-space: nowrap;
+
+        color: white;
+
+        border: none;
+    }
+
+
+    .navbar a img {
+        width: 2.9em;
+        height: auto;
+    }
+
+
+    #panier_logo {
+        width: 1.75em;
+        padding: 5px;
+    }
+
+
+    .text_on_navbar:hover {
+        color: #56ffdd;
+        border-bottom: none;
+    }
+
+    .entire_block {
+        max-width: 100%;
+        width: 100%;
+
+        display: flex;
+        justify-content: right;
+        margin-top: 4.5em;
+        padding: 0 7.5px;
+
+        box-sizing: border-box;
+
+        font-weight: 600;
+    }
+
+    .product_box {
+        width: 100%;
+        max-width: 380px;
+
+        box-sizing: border-box;
+
+        margin: 0.2rem 0;
+
+        padding: 20px 18px;
+
+        border-radius: 16px;
+
+        background: rgba(6, 20, 30, 0.88);
+
+        backdrop-filter: blur(10px);
+
+        box-shadow:
+                0 15px 35px rgba(0, 0, 0, 0.35),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product_box h1 {
+        margin: 0 0 9px 0;
+
+        font-family: "Roboto Thin", sans-serif;
+
+        font-size: 1.30em;
+        line-height: 1.1;
+
+        color: #56ffdd;
+    }
+
+    .product_box p {
+        margin: 4px 0 3px 0;
+
+        font-family: "Plus Jakarta Sans", sans-serif;
+
+        font-size: 0.60em;
+        line-height: 1.55;
+
+        color: white;
+    }
+
+    #stars_of_the_film {
+        max-width: 100%;
+        width: 30%;
+    }
+
+
+    .product_box span {
+        color: #a6d6e3;
+
+        font-size: 1.1em;
+    }
+
+
+    #synopsis {
+        display: block;
+
+        margin-top: 5px;
+        margin-bottom: 6px;
+
+        color: #a6d6e3;
+
+        font-weight: 700;
+    }
+
+    .product_box ul {
+        margin: 5px 0 2px 0;
+
+        padding-left: 20px;
+
+        font-family: "Plus Jakarta Sans", sans-serif;
+
+        font-size: 0.62em;
+        line-height: 1.55;
+
+        color: white;
+    }
+
+
+    .product_box li {
+        margin-bottom: 1.5px;
+    }
+
+    #bouton_achat:hover {
+        background-color: #5c5858;
+    }
+
+    #bouton_achat {
+        width: 55%;
+
+        box-sizing: border-box;
+
+        margin-top: 10px;
+
+        padding: 12px 1px;
+
+        background-color: #1c83bd;
+
+        border: none;
+        border-radius: 9px;
+
+        color: white;
+
+        text-align: center;
+
+        font-size: 0.82em;
+
+        cursor: pointer;
+    }
+
+    .produits_recommandes {
+        background: rgba(0,0,0,0.8);
+        backdrop-filter: blur(1.8px);
+        margin-bottom: 2rem;
+    }
+
+    .catalogue_exemple {
+        background: url('ASSETS/CSS/IMAGES/BACKGROUND/fond_pre_visu_film-modified.jpg') center;
+        background-size: cover;
+    }
+
+    .previsu_films {
+        margin-bottom: 4em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2em;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+
+    }
+
+    .previsu_films img {
+        width: 180px;
+        height: 276px;
+        margin-bottom: 0.5em;
+    }
+
+    .previsu_films h2 {
+        font-family: "Merriweather", sans-serif;
+        color: white;
+        max-width: 200px;
+        max-height: 296px;
+    }
+
+    .previsu_films a:hover {
+        transform: scale(1.1)
+    }
+
+    .previsu_films a {
+        transition: transform 0.5s ease;
+    }
+
+    .catalogue_titre {
+        font-family: "Merriweather", sans-serif;
+        font-size: 2.5em;
+        margin-top: 0;
+        padding-top: 1em;
+        margin-bottom: 0.7em;
+        margin-left: 0.5rem;
+        color: white;
+        background-color: black;
+    }
+
+    #catalogue_exemple > h2 {
+        text-align: center;
+    }
+
+    .derniers_exemples {
+        margin-bottom: 4em;
+    }
+}
