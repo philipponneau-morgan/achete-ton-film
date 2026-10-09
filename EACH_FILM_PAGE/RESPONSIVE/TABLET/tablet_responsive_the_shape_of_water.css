@@ -14,7 +14,6 @@
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/the_shape_of_water.jpg');
 
             background-position: center top;
-            width: 100%;
         }
 
         33%, 58% {
@@ -90,7 +89,7 @@
 
         background-size:
                 100% 55em,
-                100% 55em;
+                140% auto;
 
         background-position: center top, center top;
 

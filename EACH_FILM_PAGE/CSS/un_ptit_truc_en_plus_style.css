@@ -33,6 +33,7 @@ body a {
     align-items: flex-start;
     max-width: 100%;
     font-weight: 600;
+    margin-bottom: 6.5em;
 }
 
 .product_box {
@@ -141,4 +142,65 @@ body a {
 
 .navbar a img {
     transition: transform 0.3s ease;
+}
+
+.produits_recommandes {
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(1.8px);
+}
+
+.catalogue_exemple {
+    background: url('ASSETS/CSS/IMAGES/BACKGROUND/fond_pre_visu_film-modified.jpg') center;
+    background-size: cover;
+}
+
+.previsu_films {
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.previsu_films img {
+    width: 200px;
+    height: 296px;
+    margin-bottom: 0.5em;
+}
+
+.previsu_films h2 {
+    font-family: "Merriweather", sans-serif;
+    color: white;
+    max-width: 200px;
+    max-height: 296px;
+}
+
+.previsu_films a:hover {
+    transform: scale(1.1)
+}
+
+.previsu_films a {
+    transition: transform 0.5s ease;
+}
+
+.catalogue_titre {
+    font-family: "Merriweather", sans-serif;
+    font-size: 3.5em;
+    margin-top: 0;
+    padding-top: 1em;
+    margin-bottom: 0.7em;
+    margin-left: 5rem;
+    color: white;
+}
+
+#catalogue_exemple > h2 {
+    text-align: center;
+}
+
+.derniers_exemples {
+    margin-bottom: 4em;
 }

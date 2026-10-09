@@ -13,7 +13,7 @@
                     ),
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/the_shape_of_water.jpg');
 
-            background-position: center top;
+            background-position: 55% top;
         }
 
         33%, 58% {
@@ -27,7 +27,7 @@
                     ),
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/shape_of_water_fond2.jpg');
 
-            background-position: 55% top;
+            background-position: 45% top;
         }
 
         66%, 91% {
@@ -41,7 +41,7 @@
                     ),
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/shape_of_water_fond3.jpg');
 
-            background-position: 45% top;
+            background-position: 78% top;
         }
 
         100% {
@@ -55,7 +55,7 @@
                     ),
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/the_shape_of_water.jpg');
 
-            background-position: center top;
+            background-position: 55% top;
         }
     }
 
@@ -279,4 +279,69 @@
 
         cursor: pointer;
     }
+
+    .produits_recommandes {
+        background: rgba(0,0,0,0.5);
+        backdrop-filter: blur(1.8px);
+        margin-bottom: 2rem;
+    }
+
+    .catalogue_exemple {
+        background: url('ASSETS/CSS/IMAGES/BACKGROUND/fond_pre_visu_film-modified.jpg') center;
+        background-size: cover;
+    }
+
+    .previsu_films {
+        margin-bottom: 4em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2em;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+
+    }
+
+    .previsu_films img {
+        width: 180px;
+        height: 276px;
+        margin-bottom: 0.5em;
+    }
+
+    .previsu_films h2 {
+        font-family: "Merriweather", sans-serif;
+        color: white;
+        max-width: 200px;
+        max-height: 296px;
+    }
+
+    .previsu_films a:hover {
+        transform: scale(1.1)
+    }
+
+    .previsu_films a {
+        transition: transform 0.5s ease;
+    }
+
+    .catalogue_titre {
+        font-family: "Merriweather", sans-serif;
+        font-size: 2.5em;
+        margin-top: 0;
+        padding-top: 1em;
+        margin-bottom: 0.7em;
+        margin-left: 0.5rem;
+        color: white;
+    }
+
+    #catalogue_exemple > h2 {
+        text-align: center;
+    }
+
+    .derniers_exemples {
+        margin-bottom: 4em;
+    }
+
 }

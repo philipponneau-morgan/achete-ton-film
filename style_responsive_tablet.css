@@ -1,4 +1,4 @@
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1040px) and (min-width: 900px) {
     body {
         background-color: white;
         background-attachment: fixed;
@@ -175,6 +175,10 @@
 
     .previsu_films {
         padding-bottom: 1em;
+    }
+
+    .catalogue_exemple .catalogue_titre {
+        margin-left: 4.28rem;
     }
 
 }

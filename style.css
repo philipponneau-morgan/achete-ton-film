@@ -198,6 +198,10 @@ body a {
     transition: transform 0.5s ease;
 }
 
+.catalogue_exemple .previsu_films {
+    margin-bottom: 2em;
+}
+
 .catalogue_titre {
     font-family: "Merriweather", sans-serif;
     font-size: 3.5em;
@@ -209,8 +213,10 @@ body a {
 }
 
 .derniers_exemples {
-    margin-bottom: 4em;
+    padding-bottom: 20px;
 }
+
+
 
 .footer {
     background-color: white;
