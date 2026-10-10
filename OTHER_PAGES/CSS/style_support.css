@@ -108,7 +108,7 @@ h2 {
     margin: 0;
     display: flex;
     align-items: center;
-    gap: 10px; /* Espace constant entre l'icône et le texte */
+    gap: 10px;
 }
 
 #form label {
@@ -122,11 +122,10 @@ h2 {
     font-size: 1.5em;
 }
 
-/* 🛠️ CORRECTION 1 : Séparation correcte des sélecteurs pour l'input et le textarea */
 #form label input:focus,
 #form label textarea:focus {
     border: 2px solid #f88259;
-    outline: none; /* Évite la double bordure bleue par défaut des navigateurs */
+    outline: none;
 }
 
 #form label p i {
