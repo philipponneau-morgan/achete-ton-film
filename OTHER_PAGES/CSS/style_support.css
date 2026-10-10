@@ -118,7 +118,7 @@ h2 {
     flex-direction: column;
     gap: 1rem;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     font-size: 1.5em;
 }
 
@@ -130,31 +130,30 @@ h2 {
 }
 
 #form label p i {
-    width: 1.5rem;      /* Force une largeur identique pour chaque icône */
-    text-align: center; /* Centre l'icône dans cet espace réservé */
+    width: 1.5rem;
+    text-align: center;
 }
 
-/* 🛠️ CORRECTION 2 : Ajout d'une bordure de base et d'un texte blanc pour l'input */
 #form label input {
     border: 1px solid grey;
     width: 25em;
     height: 3.5em;
     background-color: black;
-    color: white; /* Permet de voir ce que l'on écrit */
-    padding: 0 10px; /* Évite que le texte colle au bord */
-    box-sizing: border-box; /* Aligne parfaitement la taille avec le textarea */
+    color: white;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
-/* 🛠️ CORRECTION 3 : Ajout d'une bordure de base, texte blanc et padding pour le textarea */
+
 #form label textarea {
-    border: 1px solid grey; /* Évite que le champ disparaisse sur fond noir */
+    border: 1px solid grey;
     width: 25em;
     height: 3.5em;
     background-color: black;
     color: white;
     padding: 10px;
     box-sizing: border-box;
-    resize: vertical; /* Permet à l'utilisateur d'agrandir le champ en hauteur seulement */
+    resize: vertical;
 }
 
 .input_fields {
@@ -166,7 +165,6 @@ h2 {
 }
 
 #sens_form_button {
-    /* Style suggéré pour aller avec votre thème */
     background-color: orangered;
     color: black;
     border: none;
