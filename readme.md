@@ -72,8 +72,11 @@ Au niveau des pages catégories, elles contiennent :
 
 --------------------------------------
 
-Pour finir, il y a la page Support. Elle sert à me contacter via un formulaire de contact. Ce dernier est alimenté par formspree.io, un site
-semblable à Web3Forms. Il se compose de deux parties
+Pour finir, il y a la page Support comme demandée. Cette page contient également une navbar semblable à celle de la page d'accueil.
+Son but principal : elle sert à me contacter via un formulaire de contact. Ce dernier est alimenté par formspree.io, un site
+semblable à Web3Forms. Il se compose de deux parties (blocs input) : EMAIL, dans lequel on renseigne son email, pour que je sache qui me contacte ;
+et Sujet du Message, dans lequel la personne qui me contacte peut me signaler un problème, me poser une quesiton, ou autre. Je reçois ensuite la
+requête sur mon tableau de bord (dashboard) FormSpree.
 
 
 --------------------------------------
@@ -83,17 +86,35 @@ Le site complet est adapté en responsive desktop, téléphone, et tablette comm
     - Téléphone : Iphone 16 Pro Max
     - Tablette : Ipad Pro 13
 
-De plus, j'ai voulu ajouter des petites modifications en responsive mobile et tablette, en mettant des images spécifiquement
-pour mobile ou tablette en image de fond des pages de sites web.
+De plus, j'ai voulu apporter des petites modifications en responsive mobile et tablette, en mettant des images spécifiquement
+pour mobile ou tablette en image de fond des pages de films.
 
 Aussi, en responsive, que ce soit tablette ou mobile, j'ai parfois mis un logo différent dans la navbar (c'est très souvent le cas),
 pour apporter plus d'originalité à mon site.
 
 Mon but était de faire un site agréable, interactif et sur lequel il serait plaisant de naviguer.
 
+Le site répond aux critères d'accessibilités définis par le RGAA et abordés dans le cours (au moins 95% partout sauf en Performances).
+
 --------------------------------------
 
 BONUS :
 
-Comme bonus, j'ai créé un dépôt github, consultable grâce au lien suivant : , sur lequel au fil de la construction de mon projet, j'ai créé
-des sauvegardes avec un nom qui donnait des informations sur l'état dans lequel mon site était, au moment de cette sauuvegarde.
+1.
+
+    Comme bonus, j'ai créé un dépôt github, consultable grâce au lien suivant : https://github.com/philipponneau-morgan/achete-ton-film, sur lequel au fil
+de la construction de mon projet, j'ai créé des sauvegardes avec un nom qui donnait des informations sur l'état dans lequel mon site était, au moment
+de cette sauvegarde.
+
+2.
+
+    De plus, mon site est actuellement publié sur internet grâce à l'hébergeur gratuit NETLIFY, et il est possible de le consulter depuis n'importe quel
+appareil via le lien suivant : https://achetetonfilm.netlify.app
+
+--------------------------------------
+
+Projet SUPINFO - Dévéloppement Web : Création d'un site web e-commerce.
+
+Morgan Philipponneau, fait en 2026.
+
+--------------------------------------
