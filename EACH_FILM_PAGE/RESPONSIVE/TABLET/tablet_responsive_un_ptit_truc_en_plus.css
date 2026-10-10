@@ -33,7 +33,7 @@
             background-position: 40% top;
             background-size:
                     100% 55em,
-                    185% auto;
+                    182.2% auto;
         }
 
         66%, 91% {
@@ -50,7 +50,7 @@
             background-position: center top;
             background-size:
                     100% 55em,
-                    130% auto;
+                    133.7% auto;
         }
 
         100% {
@@ -298,5 +298,9 @@
         font-size: 0.82em;
 
         cursor: pointer;
+    }
+
+    .catalogue_titre {
+        margin-right: 5rem;
     }
 }

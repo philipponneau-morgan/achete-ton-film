@@ -13,7 +13,7 @@
                     ),
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/shutter_island_fond.jpg');
 
-            background-position: center top;
+            background-position: 44% top;
         }
 
         33%, 58% {
@@ -30,7 +30,7 @@
             background-position: 100% top;
             background-size:
                     100% 55em,
-                    140% auto;
+                    134% auto;
         }
 
         66%, 91% {
@@ -47,7 +47,7 @@
             background-position: center top;
             background-size:
                     100% 55em,
-                    173% auto;
+                    176.3% auto;
         }
 
         100% {
@@ -61,7 +61,7 @@
                     ),
                     url('../../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/shutter_island_fond.jpg');
 
-            background-position: center top;
+            background-position: 44% top;
         }
     }
 
@@ -292,5 +292,9 @@
         font-size: 0.82em;
 
         cursor: pointer;
+    }
+
+    .catalogue_titre {
+        margin-right: 5rem;
     }
 }

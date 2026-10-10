@@ -342,4 +342,8 @@
     .derniers_exemples {
         margin-bottom: 4em;
     }
+
+    .catalogue_titre {
+        margin-right: 0;
+    }
 }

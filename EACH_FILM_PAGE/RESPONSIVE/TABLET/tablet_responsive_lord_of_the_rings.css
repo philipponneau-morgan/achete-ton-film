@@ -288,4 +288,8 @@
 
         cursor: pointer;
     }
+
+    .catalogue_titre {
+        margin-right: 5rem;
+    }
 }
