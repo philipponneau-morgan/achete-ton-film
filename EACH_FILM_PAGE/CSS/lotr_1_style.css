@@ -1,15 +1,15 @@
 @keyframes changeBackground {
     0%, 25% {
-        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/lotr1.jpg');
+        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FILM_PAGES/lotr1.jpg');
     }
     33%, 58% {
-        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/lord_of_the_rings_fond2.jpg');
+        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FILM_PAGES/lord_of_the_rings_fond2.jpg');
     }
     66%, 91% {
-        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/lord_of_the_rings_fond3.jpg');
+        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FILM_PAGES/lord_of_the_rings_fond3.jpg');
     }
     100% {
-        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/lotr1.jpg');
+        background-image: url('../../ASSETS/CSS/IMAGES/FILMS/FILM_PAGES/lotr1.jpg');
     }
 }
 
@@ -17,7 +17,7 @@ body {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    background: url('../../ASSETS/CSS/IMAGES/FILMS/FANTASY/FILM_PAGES/lotr1.jpg') fixed;
+    background: url('../../ASSETS/CSS/IMAGES/FILMS/FILM_PAGES/lotr1.jpg') fixed;
     background-size: cover;
     animation: changeBackground 15s infinite;
 }
