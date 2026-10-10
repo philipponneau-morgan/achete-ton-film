@@ -1,6 +1,6 @@
 Bienvenue sur mon site : AcheteTonFilm
 
-Le concept est simple : il s'agit d'un site e-commerce centré / axé sur l'achat de film, au formats physiques (DVD, Blu-Ray, Blu-Ray 4K.
+Le concept est simple : il s'agit d'un site e-commerce centré / axé sur l'achat de film, aux formats physiques (DVD, Blu-Ray, Blu-Ray 4K.
 
 Comme demandé dans le cahier des charges, il est totalement complet et respecte absolument tout ce qui est demandé.
 
