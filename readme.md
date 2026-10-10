@@ -92,7 +92,8 @@ pour mobile ou tablette en image de fond des pages de films.
 Aussi, en responsive, que ce soit tablette ou mobile, j'ai parfois mis un logo différent dans la navbar (c'est très souvent le cas),
 pour apporter plus d'originalité à mon site.
 
-Mon but était de faire un site agréable, interactif et sur lequel il serait plaisant de naviguer.
+Mon but était de faire un site agréable, interactif et sur lequel il serait plaisant de naviguer. J'ai pris le maximum de temps pour affiner les petits détails,
+car je suis très perfectionniste.
 
 Le site répond aux critères d'accessibilités définis par le RGAA et abordés dans le cours (au moins 95% partout sauf en Performances).
 
@@ -100,13 +101,13 @@ Le site répond aux critères d'accessibilités définis par le RGAA et abordés
 
 BONUS :
 
-1.
+1 -
 
     Comme bonus, j'ai créé un dépôt github, consultable grâce au lien suivant : https://github.com/philipponneau-morgan/achete-ton-film, sur lequel au fil
 de la construction de mon projet, j'ai créé des sauvegardes avec un nom qui donnait des informations sur l'état dans lequel mon site était, au moment
 de cette sauvegarde.
 
-2.
+2 - 
 
     De plus, mon site est actuellement publié sur internet grâce à l'hébergeur gratuit NETLIFY, et il est possible de le consulter depuis n'importe quel
 appareil via le lien suivant : https://achetetonfilm.netlify.app
