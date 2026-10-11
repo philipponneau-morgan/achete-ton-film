@@ -1,6 +1,6 @@
 Bienvenue sur mon site : AcheteTonFilm
 
-Le concept est simple : il s'agit d'un site e-commerce centré / axé sur l'achat de film, aux formats physiques (DVD, Blu-Ray, Blu-Ray 4K.
+Le concept est simple : il s'agit d'un site e-commerce centré / axé sur l'achat de film, aux formats physiques (DVD, Blu-Ray, Blu-Ray 4K).
 
 Comme demandé dans le cahier des charges, il est totalement complet et respecte absolument tout ce qui est demandé.
 
@@ -45,11 +45,12 @@ D'abord, parlons de la page d'accueil.
 
 Deuxièmement, parlons des pages produits, soit les pages de films. J'ai voulu faire des pages originales, et le rendu me plaît énormément.
 Chaque page à la même forme. Elles se composent de :
-    - La force de la page : un fond de page variable :
-        J'ai utilisé l'animation CSS @keyframes changeBackground, qui me permet de changer de fond d'écran autant de fois que je le souhaite
-        sur une durée définie. Cette animation m'a permis, pour chaque page de film, d'amener de l'originalité, en choisissant 3 images pour
-        chaque film, comme demandé dans le cahier des charges. Dans l'animation, la durée max correspond à 100%, donc sur une certaine quantité
-        de %, je mets un fond. Sur une autre, un autre fond, etc... et je répète cela à l'infini avec "infinite" dans le css.
+
+      - La force de la page : un fond de page variable :
+      J'ai utilisé l'animation CSS @keyframes changeBackground, qui me permet de changer de fond d'écran autant de fois que je le souhaite
+      sur une durée définie. Cette animation m'a permis, pour chaque page de film, d'amener de l'originalité, en choisissant 3 images pour
+      chaque film, comme demandé dans le cahier des charges. Dans l'animation, la durée max correspond à 100%, donc sur une certaine quantité
+      de %, je mets un fond. Sur une autre, un autre fond, etc... et je répète cela à l'infini avec "infinite" dans le css.
 
     - Navbar semblable à celle de la page d'accueil, avec les mêmes fonctionnalités.
     - La boîte de produit, qui, comme demandé, contient le titre du produit ; le synopsis du film en guise de
@@ -103,13 +104,13 @@ BONUS :
 
 1 -
 
-    Comme bonus, j'ai créé un dépôt github, consultable grâce au lien suivant : https://github.com/philipponneau-morgan/achete-ton-film, sur lequel au fil
+Comme bonus, j'ai créé un dépôt github, consultable grâce au lien suivant : https://github.com/philipponneau-morgan/achete-ton-film, sur lequel au fil
 de la construction de mon projet, j'ai créé des sauvegardes avec un nom qui donnait des informations sur l'état dans lequel mon site était, au moment
 de cette sauvegarde.
 
-2 - 
+2 -
 
-    De plus, mon site est actuellement publié sur internet grâce à l'hébergeur gratuit NETLIFY, et il est possible de le consulter depuis n'importe quel
+De plus, mon site est actuellement publié sur internet grâce à l'hébergeur gratuit NETLIFY, et il est possible de le consulter depuis n'importe quel
 appareil via le lien suivant : https://achetetonfilm.netlify.app
 
 --------------------------------------
