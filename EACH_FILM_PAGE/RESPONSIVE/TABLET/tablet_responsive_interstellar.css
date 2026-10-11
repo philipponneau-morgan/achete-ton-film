@@ -59,8 +59,7 @@
         }
     }
 
-    html,
-    body {
+    html {
         margin: 0;
         padding: 0;
         width: 100%;
@@ -68,13 +67,9 @@
     }
 
     body {
-        margin: 0;
-        padding: 0;
-
+        width: 100%;
         min-height: 55em;
-
         overflow-x: hidden;
-
         background-color: #07141e;
 
         background-image:
@@ -92,7 +87,6 @@
                 140% auto;
 
         background-position: center top, center top;
-
         background-repeat: no-repeat;
 
         animation: changeBackgroundMobile 15s infinite;
@@ -100,23 +94,12 @@
         box-sizing: border-box;
     }
 
-
-    body a {
-        text-decoration: none;
-    }
-
     .navbar {
         width: 100%;
-
-        display: flex;
-        align-items: center;
         justify-content: center;
         gap: 2.5em;
-
         box-sizing: border-box;
-
         padding: 2px 2px;
-
         margin: 0;
 
         background: linear-gradient(
@@ -126,63 +109,40 @@
         );
     }
 
-
     .navbar > a {
         padding: 4px 2px;
-
-
-        font-family: "Merriweather", sans-serif;
-        font-size: 2.200em;
-
+        font-size: 2.2em;
         white-space: nowrap;
-
-        color: white;
-
         border: none;
     }
-
 
     .navbar a img {
         width: 2.9em;
         height: auto;
     }
 
-
     #panier_logo {
         width: 1.75em;
         padding: 5px;
     }
 
-
     .text_on_navbar:hover {
-        color: #56ffdd;
         border-bottom: none;
     }
 
     .entire_block {
-        max-width: 100%;
         width: 100%;
-
-        display: flex;
         justify-content: right;
         margin-top: 4.5em;
         padding: 0 7.5px;
-
         box-sizing: border-box;
-
-        font-weight: 600;
     }
 
     .product_box {
         width: 100%;
         max-width: 380px;
-
-        box-sizing: border-box;
-
         margin: 0.2rem 0;
-
         padding: 20px 18px;
-
         border-radius: 16px;
 
         background: rgba(6, 20, 30, 0.88);
@@ -192,31 +152,17 @@
         box-shadow:
                 0 15px 35px rgba(0, 0, 0, 0.35),
                 inset 0 1px 0 rgba(255, 255, 255, 0.05);
-
-        display: flex;
-        flex-direction: column;
     }
 
     .product_box h1 {
         margin: 0 0 9px 0;
-
-        font-family: "Roboto Thin", sans-serif;
-
-        font-size: 1.30em;
-        line-height: 1.1;
-
-        color: #56ffdd;
+        font-size: 1.3em;
     }
 
     .product_box p {
         margin: 4px 0 3px 0;
-
-        font-family: "Plus Jakarta Sans", sans-serif;
-
-        font-size: 0.60em;
+        font-size: 0.6em;
         line-height: 1.55;
-
-        color: white;
     }
 
     #stars_of_the_film {
@@ -224,38 +170,23 @@
         width: 30%;
     }
 
-
     .product_box span {
-        color: #a6d6e3;
-
         font-size: 1.1em;
     }
 
-
     #synopsis {
-        display: block;
-
         margin-top: 5px;
         margin-bottom: 6px;
-
         color: #a6d6e3;
-
         font-weight: 700;
     }
 
     .product_box ul {
         margin: 5px 0 2px 0;
-
         padding-left: 20px;
-
-        font-family: "Plus Jakarta Sans", sans-serif;
-
         font-size: 0.62em;
         line-height: 1.55;
-
-        color: white;
     }
-
 
     .product_box li {
         margin-bottom: 1.5px;
@@ -267,25 +198,14 @@
 
     #bouton_achat {
         width: 55%;
-
         box-sizing: border-box;
-
         margin-top: 10px;
-
         padding: 12px 1px;
-
-        background-color: #1c83bd;
-
         border: none;
         border-radius: 9px;
-
         color: white;
-
         text-align: center;
-
         font-size: 0.82em;
-
-        cursor: pointer;
     }
 
     .catalogue_titre {

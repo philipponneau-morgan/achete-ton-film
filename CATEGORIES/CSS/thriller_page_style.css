@@ -20,10 +20,10 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     background-size: cover;
-
 }
+
 .text_on_navbar:hover {
     border-bottom: 3.5px solid #D6B47A;
 }
@@ -34,7 +34,6 @@ body {
     font-family: "Cormorant Garamond", sans-serif;
     font-size: 2em;
     border: 3.5px solid transparent;
-
 }
 
 .navbar a img:hover {
@@ -44,7 +43,6 @@ body {
 
 .navbar a img {
     transition: transform 0.5s ease;
-
 }
 
 .basket_logo {
@@ -101,9 +99,6 @@ h2 {
     width: 240px;
     height: 366px;
     margin-bottom: 0.5em;
-}
-
-.footer {
 }
 
 .pro_footer {

@@ -2,24 +2,11 @@
 
     body {
         background-attachment: scroll;
-        margin: 0;
     }
 
     .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-
-        background: white;
-        background-size: cover;
-
         margin-left: 0.5em;
         margin-right: 0.3em;
-    }
-
-    .text_on_navbar:hover {
-        border-bottom: 3.5px solid black;
     }
 
     .navbar a picture img {
@@ -34,15 +21,9 @@
 
     .navbar > a {
         padding: 4px;
-
-        color: black;
-
-        font-family: "Merriweather", sans-serif;
         font-size: 0.9em;
-
         border: 3px solid transparent;
-
-        flex-shrink: 0;
+        flex-shrink: 0; /* Va me permettre de garder les icônes intactes, garder la taille que je souhaite */
     }
 
     #logo_achete_ton_film {
@@ -60,135 +41,40 @@
     }
 
     .first_block {
-        max-width: 100%;
-
-        display: flex;
         flex-direction: column;
-
-        background:
-
-            /* Overlay Sombre Ciblée sur le texte */
-
-                radial-gradient(
-                        circle at 10% 45%,
-                        rgba(0, 0, 0, 0.95) 0%,
-                        rgba(0, 0, 0, 0.85) 20%,
-                        rgba(0, 0, 0, 0.10) 65%,
-                        transparent 100%
-                ),
-
-                    /* Image de Fond Centrée */
-
-                url("ASSETS/CSS/IMAGES/BACKGROUND/Gemini_Generated_Image_7girzp7girzp7gir.jpg")
-                center center / cover no-repeat;
-
-        overflow: hidden;
-
-        width: 100%;
     }
-
-
-    .one_block {
-        max-width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-
-        width: 100%;
-    }
-
 
     .one_block h1 {
-        max-width: 100%;
-
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-weight: 900;
-
-        color: white;
-
         margin-top: 1em;
         margin-left: 3rem;
         margin-right: 3rem;
-
         font-size: 4em;
-
         margin-bottom: 0.4em;
     }
 
-
-    .one_block h1 span {
-        color: orangered;
-    }
-
-
     .one_block h2 {
-        max-width: 100%;
-
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-weight: 500;
-
-        color: #aea8a8;
-
-        margin-top: 0;
         margin-left: 3.4rem;
         margin-right: 4rem;
-
         font-size: 1.6em;
-
-        margin-bottom: 1em;
     }
-
 
     #bouton_accueil {
-        color: black;
-
-        font-weight: bold;
-        font-size: 1.55em;
-
         margin-left: 3.5rem;
-        margin-right: 8.5rem;
-
-        padding: 18px;
-
-        background-color: #FF7D3D;
-
-        border: 2px solid #FF7D3D;
-        border-radius: 30px;
-
-        width: 11em;
-
-        margin-top: 0.7em;
         margin-bottom: 2em;
-
-        transition: transform 0.5s ease;
     }
-
 
     .image_accueil_de_droite {
         width: 25em;
-
         margin: 5em 2em;
         margin-top: 1em;
-
-        transition: transform 0.5s ease;
     }
 
     .second_block {
-        max-width: 100%;
-
-        background: url('ASSETS/CSS/IMAGES/BACKGROUND/fond_categories.jpg');
-
         background-position: 81% bottom;
-        background-size: cover;
-
-        overflow: hidden;
     }
-
 
     .categories {
         width: 17em;
-
         margin: 5.1em 2.3em;
     }
 
@@ -198,67 +84,32 @@
         gap: 1.5em;
         align-items: center;
         justify-content: space-between;
-        max-width: 100%;
     }
 
     .catalogue_exemple {
         background:
                 url('ASSETS/CSS/IMAGES/BACKGROUND/responsive_affiches_de_films_background.jpg')
                 center;
-
         background-size: cover;
     }
 
-
     .previsu_films {
-        display: flex;
-
-        flex-direction: row;
-
-        justify-content: center;
-
         gap: 1em;
-
-        align-items: center;
-
-        text-align: center;
-
-        flex-wrap: wrap;
     }
-
 
     .previsu_films img {
         width: 180px;
         height: 276px;
-
-        margin-bottom: 0.5em;
     }
-
 
     .previsu_films h2 {
-        font-family: "Merriweather", sans-serif;
-
-        color: white;
-
         max-width: 180px;
-        max-height: 296px;
-    }
-
-
-    .previsu_films a {
-        transition: transform 0.5s ease;
     }
 
     .catalogue_titre {
-        font-family: "Merriweather", sans-serif;
         font-size: 1.7em;
-        margin-top: 0;
-        padding-top: 1em;
-        margin-bottom: 0.7em;
         margin-left: 2.1rem;
-        color: white;
     }
-
 
     .derniers_exemples {
         margin-bottom: 4em;
@@ -267,48 +118,10 @@
     .pro_footer {
         margin-left: 2rem;
         margin-right: 2rem;
-
-        display: flex;
-
-        flex-direction: row;
-        flex-wrap: wrap;
-
-        justify-content: center;
-
         gap: 2em;
-
-        align-items: center;
-
-        margin-bottom: 3em;
     }
-
 
     .rubrique_footer {
-        margin-top: 1em;
-
-        display: flex;
-
-        flex-direction: column;
-
-        justify-content: space-between;
-
-        align-items: center;
-
-        gap: 1em;
-
         font-size: 1em;
     }
-
-
-    .copyright_sign {
-        margin-left: 2rem;
-        margin-right: 2rem;
-
-        font-size: 1em;
-
-        margin-bottom: 1em;
-
-        text-align: right;
-    }
-
 }
